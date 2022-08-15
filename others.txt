@@ -1,0 +1,2 @@
+clear concept about pointer,memory allocation,recursion. 
+If something is missing let me know.
