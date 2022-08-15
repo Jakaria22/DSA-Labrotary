@@ -145,13 +145,21 @@ int main()
     insert_last(head,4); 
     insert_last(head,9); 
     insert_first(head,45); 
+	cout<<"List elements: ";
     display(head); 
     inssert_mid(head,3,44);
+	cout<<"\nList elements after insert an element at middle: ";
     display(head);
+	del_first(head);
+	cout<<"\nList elements after delete first element: ";
+	display(head);
     rev(head); 
+	cout<<"\nList element after reverse: ";
     display(head);
-    sorting(head); 
+	sorting(head); 
+	cout<<"\nList elements after sorting: ";
     display(head);
+	//call any function to specific operation and display
 }
 
 // there maybe extra topics here, you can skip
