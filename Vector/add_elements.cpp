@@ -11,5 +11,8 @@ int main()
 	v.push_back(32);
 	cout<<"\nVector elements after add new elements: ";
 	for(int i=0;i<v.size();i++)cout<<v[i]<<' ';  
+	//access elements
+	cout<<"\nElements of 1 index:"<<v.at(1);//or use v[1]
+	cout<<"\nElements of 3rd index: "<<v.at(3);//or use v[3]
 
 }
