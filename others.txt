@@ -1,2 +1,2 @@
-clear concept about pointer,memory allocation,recursion. 
-If something is missing as well as if there wrong please let me know. Thanks.
+Please make clear concept about pointer,memory allocation,recursion. 
+Let me know if anything is missing or wrong. Thanks.
