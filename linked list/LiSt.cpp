@@ -13,14 +13,13 @@ class node
 };
 void insert_first(node* &head,int value)
 {
-    struct node* newnode=new node(value);
-    newnode->data=value; 
+     node* newnode=new node(value); 
     newnode->next=head; 
     head=newnode;
 }
 void inssert_mid(node* &head,int position,int value)
 {
-    struct node *temp,*newnode=new node(value);
+     node *temp,*newnode=new node(value);
     temp=head;
     for(int i=2;i<position;i++)
     temp=temp->next;
@@ -29,13 +28,13 @@ void inssert_mid(node* &head,int position,int value)
 }
 void insert_last(node* &head,int value) 
 {
-    struct node* newnode=new node(value);
+     node* newnode=new node(value);
     if(head==NULL) 
     {
         head=newnode; 
         return;
     }
-    struct node* temp=head; 
+     node* temp=head; 
     while(temp->next!=NULL) 
     temp=temp->next;
     temp->next=newnode;
@@ -58,7 +57,7 @@ void del_mid(node* &head,int position)
 }
 void del_last(node* &head) 
 {
-    struct node *temp,*pre;
+     node *temp,*pre;
     if(head==NULL)
     {
         del_first(head); 
@@ -75,7 +74,7 @@ void del_last(node* &head)
 }
 bool search(node* &head,int key) 
 {
-    struct node* temp=head; 
+     node* temp=head; 
     while(temp!=NULL)
     {
         if(temp->data==key)
@@ -88,7 +87,7 @@ bool search(node* &head,int key)
 }
 void sorting(node* &head)
 {
-    struct node *cur,*temp;
+     node *cur,*temp;
     cur=head;
     if(head==NULL)
     return;
